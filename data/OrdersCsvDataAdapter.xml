@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft WebStudioversion 2.0.0 -->
 <csvDataAdapter class="net.sf.jasperreports.data.csv.CsvDataAdapterImpl">
-	<name>csv</name>
-	<fileName>/samples/data/orders.csv</fileName>
-	<recordDelimiter>&#10;</recordDelimiter>
-	<useFirstRowAsHeader>false</useFirstRowAsHeader>
-	<queryExecuterMode>true</queryExecuterMode>
-	<datePattern>yyyy-MM-dd HH:mm:ss</datePattern>
-	<columnNames>orderId</columnNames>
-	<columnNames>customerId</columnNames>
-	<columnNames>employeeId</columnNames>
-	<columnNames>orderDate</columnNames>
-	<columnNames>requiredDate</columnNames>
-	<columnNames>shippedDate</columnNames>
-	<columnNames>shipVia</columnNames>
-	<columnNames>freight</columnNames>
-	<columnNames>shipName</columnNames>
-	<columnNames>shipAddress</columnNames>
-	<columnNames>shipCity</columnNames>
-	<columnNames>shipRegion</columnNames>
-	<columnNames>shipPostalCode</columnNames>
-	<columnNames>shipCountry</columnNames>
+  <name>csv</name>
+  <dataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="repositoryDataLocation">
+    <location>/samples_cvc/main/data/orders.csv</location>
+  </dataFile>
+  <recordDelimiter>&#10;</recordDelimiter>
+  <fieldDelimiter>,</fieldDelimiter>
+  <useFirstRowAsHeader>false</useFirstRowAsHeader>
+  <queryExecuterMode>true</queryExecuterMode>
+  <datePattern>yyyy-MM-dd HH:mm:ss</datePattern>
+  <columnNames>orderId</columnNames>
+  <columnNames>customerId</columnNames>
+  <columnNames>employeeId</columnNames>
+  <columnNames>orderDate</columnNames>
+  <columnNames>requiredDate</columnNames>
+  <columnNames>shippedDate</columnNames>
+  <columnNames>shipVia</columnNames>
+  <columnNames>freight</columnNames>
+  <columnNames>shipName</columnNames>
+  <columnNames>shipAddress</columnNames>
+  <columnNames>shipCity</columnNames>
+  <columnNames>shipRegion</columnNames>
+  <columnNames>shipPostalCode</columnNames>
+  <columnNames>shipCountry</columnNames>
 </csvDataAdapter>
