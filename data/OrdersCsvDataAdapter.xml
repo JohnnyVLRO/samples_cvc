@@ -3,7 +3,7 @@
 <csvDataAdapter class="net.sf.jasperreports.data.csv.CsvDataAdapterImpl">
   <name>csv</name>
   <dataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="repositoryDataLocation">
-    <location>/samples_cvc/main/data/orders.csv</location>
+    <location>///data/orders.csv</location>
   </dataFile>
   <recordDelimiter>&#10;</recordDelimiter>
   <fieldDelimiter>,</fieldDelimiter>
