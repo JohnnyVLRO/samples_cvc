@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft WebStudio version 2.0.0 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" pageWidth="842" pageHeight="1190" name="HighchartsChart" uuid="70fac82d-0c4c-4811-ad3c-108a659cbc65" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd">
-  <property name="net.sf.jasperreports.data.adapter" value="/samples_cvc/main/data/OrdersCsvDataAdapter.xml"/>
+  <property name="net.sf.jasperreports.data.adapter" value="/data/OrdersCsvDataAdapter.xml"/>
   <queryString language="csv"><![CDATA[]]></queryString>
   <field name="freight" class="java.lang.Double">
     <fieldDescription><![CDATA[]]></fieldDescription>
