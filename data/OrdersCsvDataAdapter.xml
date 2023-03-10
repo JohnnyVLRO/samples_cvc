@@ -8,7 +8,7 @@
   <recordDelimiter>&#10;</recordDelimiter>
   <fieldDelimiter>,</fieldDelimiter>
   <useFirstRowAsHeader>false</useFirstRowAsHeader>
-  <queryExecuterMode>true</queryExecuterMode>
+  <queryExecuterMode>false</queryExecuterMode>
   <datePattern>yyyy-MM-dd HH:mm:ss</datePattern>
   <columnNames>orderId</columnNames>
   <columnNames>customerId</columnNames>
